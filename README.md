@@ -1,2 +1,5 @@
 # Text_Complexity
-Technique to quantify textual predictability and patterns in the introduction of novel information over sequences
+Quantify textual complexity based on Kolmogorov complexity and implemented with PyLZMA compression.
+
+This works by losslessly compressing integrally longer text sequences (character by character) and taking the derivative as a measure of local information input.
+
